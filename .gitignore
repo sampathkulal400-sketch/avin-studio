@@ -1,0 +1,13 @@
+# OS Files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temporary files & logs
+*.tmp
+*.log
+scratch/
+
+# Node
+node_modules/
+npm-debug.log

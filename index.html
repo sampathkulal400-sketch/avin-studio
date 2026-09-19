@@ -1,0 +1,930 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0" />
+  <title>AVIN Studio | Fine Art Indian Wedding, Baby & Family Photography Sullia</title>
+  <meta name="description" content="AVIN Studio - Traditional Indian wedding photography, baby birthdays, cradle ceremonies, seemantha, and studio portraits on Car Street, Jattipalla, Sullia, Karnataka." />
+
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            'bg-linen': '#faf8f5',
+            'bg-sand': '#f3eee6',
+            'bg-sand-dark': '#e8e1d5',
+            'bg-charcoal': '#141312',
+            'color-accent': '#b38b43',
+            'color-accent-dark': '#8c6a28',
+            'color-gold': '#c59b48',
+            'text-main': '#1c1b1a',
+            'text-muted': '#5e5b56',
+            'text-dim': '#8c8780'
+          },
+          fontFamily: {
+            serif: ['Playfair Display', 'Georgia', 'serif'],
+            sub: ['Montserrat', 'sans-serif'],
+            sans: ['Plus Jakarta Sans', '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'sans-serif'],
+            kannada: ['Noto Sans Kannada', 'sans-serif']
+          }
+        }
+      }
+    }
+  </script>
+
+  <!-- Lucide Icons -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+
+  <!-- Custom Stylesheet -->
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body class="bg-bg-linen text-text-main antialiased pb-20 md:pb-0 overflow-x-hidden">
+
+  <!-- 1. NAVIGATION -->
+  <header class="sticky top-0 z-50 editorial-nav bg-[#faf8f5]/95 backdrop-blur-md border-b border-border-subtle shadow-sm">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-10">
+      <div class="flex items-center justify-between h-16 sm:h-20">
+        
+        <!-- Logo / Studio Name -->
+        <a href="#" class="flex flex-col group py-1">
+          <span class="font-serif text-xl sm:text-2xl font-bold tracking-wide text-text-main leading-tight">
+            AVIN STUDIO
+          </span>
+          <span class="text-[10px] font-sub uppercase tracking-[0.2em] text-color-accent-dark font-semibold">
+            Sullia, Karnataka
+          </span>
+        </a>
+
+        <!-- Desktop Navigation Links -->
+        <nav class="hidden md:flex items-center gap-7 text-[11px] font-sub uppercase tracking-[0.16em] font-semibold text-text-muted">
+          <a href="#work" class="hover:text-text-main transition-colors py-2">Work</a>
+          <a href="#services" class="hover:text-text-main transition-colors py-2">Services</a>
+          <a href="#story" class="hover:text-text-main transition-colors py-2">Stories</a>
+          <a href="#about" class="hover:text-text-main transition-colors py-2">About</a>
+          <a href="#testimonials" class="hover:text-text-main transition-colors py-2">Kind Words</a>
+          <a href="#contact" class="hover:text-text-main transition-colors py-2">Contact</a>
+        </nav>
+
+        <!-- Right Header CTA Button -->
+        <div class="hidden sm:flex items-center gap-3">
+          <a href="https://wa.me/917899530503?text=Namaskara%20AVIN%20Studio!%20I%20would%20like%20to%20inquire%20about%20photography%20booking." 
+             target="_blank" rel="noopener noreferrer" 
+             class="btn-primary text-[10px] py-2 px-3.5 shadow-sm">
+            <i data-lucide="message-circle" class="w-3.5 h-3.5"></i>
+            <span>Enquire on WhatsApp</span>
+          </a>
+        </div>
+
+        <!-- Mobile Hamburger Button -->
+        <button id="mobile-menu-btn" class="md:hidden p-2 text-text-main focus:outline-none touch-manipulation" aria-label="Toggle navigation menu">
+          <i data-lucide="menu" class="w-6 h-6"></i>
+        </button>
+      </div>
+    </div>
+
+    <!-- Mobile Navigation Drawer -->
+    <div id="mobile-menu-drawer" class="hidden md:hidden bg-bg-linen border-t border-border-subtle px-5 py-4 space-y-3 shadow-xl">
+      <div class="flex items-center justify-between pb-2 border-b border-border-subtle text-xs">
+        <span class="font-kannada text-text-main font-semibold">ಅವಿನ್ ಸ್ಟುಡಿಯೋ - ಸುಳ್ಯ</span>
+        <span class="text-emerald-700 font-sub font-semibold text-[11px]">Open Daily till 9 PM</span>
+      </div>
+      <div class="grid grid-cols-2 gap-2 text-xs font-sub uppercase tracking-wider font-semibold text-text-muted">
+        <a href="#work" class="mobile-nav-link hover:text-text-main py-2">Featured Work</a>
+        <a href="#services" class="mobile-nav-link hover:text-text-main py-2">Services</a>
+        <a href="#story" class="mobile-nav-link hover:text-text-main py-2">Featured Story</a>
+        <a href="#about" class="mobile-nav-link hover:text-text-main py-2">About Studio</a>
+        <a href="#testimonials" class="mobile-nav-link hover:text-text-main py-2">Kind Words</a>
+        <a href="#contact" class="mobile-nav-link hover:text-text-main py-2">Contact Us</a>
+      </div>
+      <div class="pt-2 flex flex-col gap-2">
+        <a href="https://wa.me/917899530503?text=Namaskara%20AVIN%20Studio!%20I%20would%20like%20to%20inquire%20about%20booking%20my%20event." target="_blank" rel="noopener noreferrer" class="btn-whatsapp w-full text-center text-xs py-2.5">
+          <i data-lucide="message-circle" class="w-4 h-4"></i>
+          <span>WhatsApp Chat</span>
+        </a>
+        <a href="tel:07899530503" class="btn-outline w-full text-center text-xs py-2.5">
+          <i data-lucide="phone" class="w-4 h-4"></i>
+          <span>Call 078995 30503</span>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- 2. HERO SECTION -->
+  <section class="relative pt-6 pb-8 sm:pt-10 sm:pb-12">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-10">
+      
+      <!-- Top Label & Headline -->
+      <div class="max-w-3xl mb-4 sm:mb-6">
+        <div class="editorial-label mb-1.5">
+          Photography Studio • Car Street, Sullia, Karnataka
+        </div>
+        <h1 class="editorial-heading text-3xl sm:text-5xl md:text-6xl font-normal text-text-main leading-tight">
+          Stories worth <br />
+          <span class="italic-serif font-normal">remembering.</span>
+        </h1>
+        <p class="text-text-muted text-xs sm:text-sm max-w-xl mt-2 font-light leading-relaxed">
+          Traditional wedding rituals, baby first birthdays, cradle ceremonies, seemantha, and family celebrations documented with warmth and cultural respect across Dakshina Kannada.
+        </p>
+
+        <!-- Action CTAs -->
+        <div class="flex flex-row items-center gap-2.5 mt-3.5">
+          <a href="#work" class="btn-primary flex-1 sm:flex-initial text-center justify-center min-h-[40px] text-xs">
+            <span>View Our Work</span>
+            <i data-lucide="arrow-down" class="w-3 h-3"></i>
+          </a>
+          <a href="https://wa.me/917899530503?text=Namaskara%20AVIN%20Studio!%20I%20would%20like%20to%20inquire%20about%20booking%20a%20photography%20session." 
+             target="_blank" rel="noopener noreferrer"
+             class="btn-whatsapp flex-1 sm:flex-initial text-center justify-center min-h-[40px] text-xs">
+            <i data-lucide="message-circle" class="w-3.5 h-3.5"></i>
+            <span>WhatsApp</span>
+          </a>
+        </div>
+      </div>
+
+      <!-- Large High-Quality Indian Wedding Garland Hero Photo -->
+      <div class="editorial-img-container aspect-[4/3] sm:aspect-[16/10] lg:aspect-[16/9] max-h-[520px] shadow-sm lightbox-trigger cursor-pointer rounded-lg mt-4"
+           data-title="Traditional Indian Wedding Garland Ritual (Jaimala)"
+           data-category-label="Wedding Muhurtham">
+        <img src="images/hero_wedding.jpg" 
+             alt="Traditional South Indian Wedding Garland Exchange by AVIN Studio Sullia"
+             loading="eager" 
+             fetchpriority="high" />
+        <div class="absolute bottom-2.5 left-2.5 sm:bottom-4 sm:left-4 bg-white/95 backdrop-blur-sm px-2.5 py-1 rounded text-[10px] sm:text-[11px] font-sub uppercase tracking-wider text-text-main font-semibold shadow-sm">
+          Traditional Garland Muhurtham • Sullia
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- 3. INTRODUCTION (Editorial Text + Authentic South Indian Bride Portrait) -->
+  <section class="py-6 sm:py-12 bg-bg-sand/40 border-y border-border-subtle">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-10">
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-6 lg:gap-10 items-center">
+        
+        <!-- Left: Image (Traditional Indian Wedding Heritage) -->
+        <div class="lg:col-span-5">
+          <div class="editorial-img-container aspect-[4/3] sm:aspect-[16/10] lg:aspect-[4/5] w-full shadow-sm lightbox-trigger cursor-pointer rounded-lg"
+               data-title="Traditional Indian Wedding Heritage & Milestones"
+               data-category-label="Heritage & Philosophy">
+            <img src="images/philosophy_heritage.jpg" 
+                 alt="Traditional Indian Wedding Couple by AVIN Studio Sullia"
+                 class="object-center"
+                 loading="lazy" 
+                 decoding="async" />
+            <div class="absolute bottom-2.5 left-2.5 sm:bottom-4 sm:left-4 bg-white/95 backdrop-blur-sm px-2.5 py-1 rounded text-[10px] sm:text-[11px] font-sub uppercase tracking-wider text-text-main font-semibold shadow-sm">
+              Traditional Wedding Heritage • Sullia
+            </div>
+          </div>
+        </div>
+
+        <!-- Right: Editorial Philosophy -->
+        <div class="lg:col-span-7 space-y-3">
+          <div class="editorial-label">Our Philosophy</div>
+          
+          <h2 class="editorial-heading text-2xl sm:text-3xl lg:text-4xl font-normal text-text-main">
+            Every family milestone <br />
+            <span class="italic-serif font-normal">deserves to be cherished.</span>
+          </h2>
+          
+          <div class="w-10 h-0.5 bg-color-accent"></div>
+
+          <p class="text-text-muted text-xs sm:text-sm leading-relaxed font-light">
+            We believe the most meaningful photographs are rooted in genuine family bonds—the innocent giggles of a baby’s first birthday, the loving blessings during a cradle ceremony (ತೊಟ್ಟಿಲು ಶಾಸ್ತ್ರ), the sacred solemnity of a wedding muhurtham, and the quiet pride of elders during family poojas.
+          </p>
+
+          <p class="text-text-muted text-xs sm:text-sm leading-relaxed font-light">
+            Located right on Car Street in Jattipalla, Sullia, AVIN Studio has spent over 12 years capturing weddings, babies, and traditional celebrations across Dakshina Kannada with patience, cultural intimacy, and rich color artistry.
+          </p>
+
+          <div class="pt-1">
+            <a href="#services" class="btn-outline text-xs min-h-[38px]">
+              <span>Explore All Our Photography Services</span>
+              <i data-lucide="arrow-right" class="w-3 h-3"></i>
+            </a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- 4. FEATURED WORK (100% Matching Indian Weddings, Baby & Seemantha) -->
+  <section id="work" class="scroll-mt-20 sm:scroll-mt-24 py-8 sm:py-14">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-10">
+      
+      <!-- Section Header -->
+      <div class="flex flex-col sm:flex-row sm:items-end justify-between mb-5 sm:mb-8 gap-2">
+        <div>
+          <div class="editorial-label mb-1">Selected Portfolio</div>
+          <h2 class="editorial-heading text-2xl sm:text-3xl font-normal text-text-main">
+            Featured <span class="italic-serif font-normal">Work</span>
+          </h2>
+        </div>
+        <p class="text-text-muted text-xs sm:text-sm max-w-md font-light">
+          A showcase of traditional weddings, baby naming & birthday milestones, Haldi laughter, and studio family portraits.
+        </p>
+      </div>
+
+      <!-- Symmetrical Editorial Gallery Layout -->
+      <div class="space-y-4 sm:space-y-6">
+        
+        <!-- Row 1: Equal 2-Column Balanced Feature (Garland Muhurtham + Baby Milestone) -->
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-4 sm:gap-6">
+          
+          <!-- Column 1: Garland Exchange Ceremony -->
+          <div class="asym-gallery-item editorial-img-container aspect-[4/3] sm:aspect-[16/10] lightbox-trigger rounded-lg"
+               data-title="Sacred Wedding Garland Ceremony (Varmala)"
+               data-category-label="Wedding Muhurtham">
+            <img src="images/garland_ceremony.jpg" 
+                 alt="Traditional South Indian Wedding Garland Ceremony"
+                 loading="lazy" 
+                 decoding="async" />
+            <div class="overlay flex flex-col justify-end p-3.5 sm:p-5 text-white">
+              <span class="text-[10px] font-sub uppercase tracking-widest text-color-gold font-semibold">Wedding Muhurtham</span>
+              <h3 class="font-serif text-base sm:text-xl font-normal mt-0.5 text-white">Sacred Garlands & Blessings</h3>
+              <p class="text-xs text-neutral-200 font-light">Sullia, Karnataka</p>
+            </div>
+          </div>
+
+          <!-- Column 2: Baby Naming & Cradle Ceremony (Namakarana) -->
+          <div class="asym-gallery-item editorial-img-container aspect-[4/3] sm:aspect-[16/10] lightbox-trigger rounded-lg"
+               data-title="Traditional Baby Naming Ceremony (Namakarana & Cradle)"
+               data-category-label="Baby & Milestones">
+            <img src="images/baby_ceremony.jpg" 
+                 alt="Indian Baby Naming and Cradle Ceremony Sullia"
+                 loading="lazy" 
+                 decoding="async" />
+            <div class="overlay flex flex-col justify-end p-3.5 sm:p-5 text-white">
+              <span class="text-[10px] font-sub uppercase tracking-widest text-color-gold font-semibold">Baby & Milestones</span>
+              <h3 class="font-serif text-base sm:text-xl font-normal mt-0.5 text-white">Baby Naming & Cradle Ceremony</h3>
+              <p class="text-xs text-neutral-200 font-light">ತೊಟ್ಟಿಲು ಶಾಸ್ತ್ರ • Sullia</p>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Row 2: Equal 3-Column Balanced Feature (Haldi, Seemantha Bangles, Fine Art Studio) -->
+        <div class="grid grid-cols-1 sm:grid-cols-3 gap-4 sm:gap-6">
+          
+          <!-- Item 1: Haldi Turmeric Joy -->
+          <div class="asym-gallery-item editorial-img-container aspect-[4/3] sm:aspect-[4/5] lightbox-trigger rounded-lg"
+               data-title="Traditional Haldi Turmeric Celebrations"
+               data-category-label="Candid Celebrations">
+            <img src="images/haldi_ceremony.jpg" 
+                 alt="Traditional Haldi Turmeric Celebrations"
+                 loading="lazy" 
+                 decoding="async" />
+            <div class="overlay flex flex-col justify-end p-3.5 text-white">
+              <span class="text-[10px] font-sub uppercase tracking-widest text-color-gold font-semibold">Candid Celebrations</span>
+              <h3 class="font-serif text-base font-normal mt-0.5 text-white">Haldi Turmeric & Laughter</h3>
+              <p class="text-xs text-neutral-200 font-light">Family Celebration</p>
+            </div>
+          </div>
+
+          <!-- Item 2: Traditional Seemantha (Bangles Ritual) -->
+          <div class="asym-gallery-item editorial-img-container aspect-[4/3] sm:aspect-[4/5] lightbox-trigger rounded-lg"
+               data-title="Traditional Seemantha Bangle Wearing Blessings"
+               data-category-label="Maternity & Seemantha">
+            <img src="images/seemantha_bangles.jpg" 
+                 alt="Traditional Indian Seemantha Bangle Ceremony"
+                 loading="lazy" 
+                 decoding="async" />
+            <div class="overlay flex flex-col justify-end p-3.5 text-white">
+              <span class="text-[10px] font-sub uppercase tracking-widest text-color-gold font-semibold">Maternity & Seemantha</span>
+              <h3 class="font-serif text-base font-normal mt-0.5 text-white">Seemantha Bangle Blessings</h3>
+              <p class="text-xs text-neutral-200 font-light">ಸೀಮಂತ ಶಾಸ್ತ್ರ • Sullia</p>
+            </div>
+          </div>
+
+          <!-- Item 3: Studio Fine Art Bridal Portrait -->
+          <div class="asym-gallery-item editorial-img-container aspect-[4/3] sm:aspect-[4/5] lightbox-trigger rounded-lg"
+               data-title="Fine Art Bridal & Matrimonial Studio Portrait"
+               data-category-label="Studio Portraiture">
+            <img src="images/bridal_studio.jpg" 
+                 alt="Indian Bridal Studio Portrait Sullia"
+                 loading="lazy" 
+                 decoding="async" />
+            <div class="overlay flex flex-col justify-end p-3.5 text-white">
+              <span class="text-[10px] font-sub uppercase tracking-widest text-color-gold font-semibold">Studio Portrait</span>
+              <h3 class="font-serif text-base font-normal mt-0.5 text-white">Fine-Art Studio Portrait</h3>
+              <p class="text-xs text-neutral-200 font-light">AVIN Studio Setup</p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+      <!-- Bottom Gallery Link -->
+      <div class="text-center mt-5">
+        <a href="https://wa.me/917899530503?text=Namaskara%20AVIN%20Studio!%20I%20would%20like%20to%20see%20more%20of%20your%20wedding,%20baby,%20and%20family%20event%20portfolio." 
+           target="_blank" rel="noopener noreferrer"
+           class="inline-flex items-center gap-1.5 text-xs font-sub font-semibold uppercase tracking-[0.14em] text-text-main hover:text-color-accent transition-colors pb-0.5 border-b border-text-main hover:border-color-accent">
+          <span>Request Complete Albums on WhatsApp →</span>
+        </a>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- 5. SERVICES (6 Specific Indian Photography Categories — 100% Matching Photos) -->
+  <section id="services" class="scroll-mt-20 sm:scroll-mt-24 py-8 sm:py-14 bg-bg-sand/30 border-y border-border-subtle">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-10">
+      
+      <div class="max-w-2xl mb-6 sm:mb-8">
+        <div class="editorial-label mb-1">What We Do</div>
+        <h2 class="editorial-heading text-2xl sm:text-3xl font-normal text-text-main">
+          Our <span class="italic-serif font-normal">Services</span>
+        </h2>
+        <p class="text-text-muted text-xs sm:text-sm mt-1 font-light">
+          Thoughtful, unhurried photography coverage for every special milestone of your family.
+        </p>
+      </div>
+
+      <!-- Services 6-Card Grid -->
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6">
+        
+        <!-- Service 1: Weddings & Cinematography (Sacred Rituals & Havan Photo) -->
+        <div class="space-y-2.5 bg-white p-3.5 sm:p-4 rounded-lg border border-border-subtle shadow-sm flex flex-col justify-between">
+          <div>
+            <div class="editorial-img-container aspect-[16/10] w-full rounded-md mb-2.5">
+              <img src="images/sacred_rituals.jpg" 
+                   alt="Sacred Hindu Wedding Rituals & Havan"
+                   loading="lazy" 
+                   decoding="async" />
+            </div>
+            <div class="text-[10px] font-sub uppercase tracking-widest text-color-accent font-semibold">01 / Weddings</div>
+            <h3 class="font-serif text-base font-bold text-text-main mt-0.5">Wedding Photography & 4K Cinema</h3>
+            <p class="text-text-muted text-xs leading-relaxed font-light mt-0.5">
+              Multi-day traditional wedding coverage focusing on sacred muhurthams, havan rituals, candid family expressions, and cinematic teaser films.
+            </p>
+          </div>
+          <div class="pt-1.5 text-[10.5px] text-color-accent-dark font-sub font-semibold">ವಿವಾಹ & ಸಿನಿಮಾಟೋಗ್ರಫಿ</div>
+        </div>
+
+        <!-- Service 2: Pre-Wedding & Couples (Indian Wedding Couple in Mandap Attire) -->
+        <div class="space-y-2.5 bg-white p-3.5 sm:p-4 rounded-lg border border-border-subtle shadow-sm flex flex-col justify-between">
+          <div>
+            <div class="editorial-img-container aspect-[16/10] w-full rounded-md mb-2.5">
+              <img src="images/wedding_couple.jpg" 
+                   alt="South Indian Couple Pre-Wedding & Couple Sessions"
+                   loading="lazy" 
+                   decoding="async" />
+            </div>
+            <div class="text-[10px] font-sub uppercase tracking-widest text-color-accent font-semibold">02 / Couples</div>
+            <h3 class="font-serif text-base font-bold text-text-main mt-0.5">Pre-Wedding & Couple Sessions</h3>
+            <p class="text-text-muted text-xs leading-relaxed font-light mt-0.5">
+              Romantic, respectful couple portraits in picturesque Western Ghats hills, riverbanks, and lush coastal arecanut estates.
+            </p>
+          </div>
+          <div class="pt-1.5 text-[10.5px] text-color-accent-dark font-sub font-semibold">ಪ್ರಿ-ವೆಡ್ಡಿಂಗ್ ಶೂಟ್ಸ್</div>
+        </div>
+
+        <!-- Service 3: Baby, Kids & 1st Birthday (Baby Annaprashana & Feeding Milestone) -->
+        <div class="space-y-2.5 bg-white p-3.5 sm:p-4 rounded-lg border border-border-subtle shadow-sm flex flex-col justify-between">
+          <div>
+            <div class="editorial-img-container aspect-[16/10] w-full rounded-md mb-2.5">
+              <img src="images/baby_annaprashana.jpg" 
+                   alt="Indian Baby First Birthday and Milestone Ceremony"
+                   loading="lazy" 
+                   decoding="async" />
+            </div>
+            <div class="text-[10px] font-sub uppercase tracking-widest text-color-accent font-semibold">03 / Baby & Kids</div>
+            <h3 class="font-serif text-base font-bold text-text-main mt-0.5">Baby 1st Birthday & Cradle Ceremony</h3>
+            <p class="text-text-muted text-xs leading-relaxed font-light mt-0.5">
+              Adorable first birthday cake smash setups, Namakarana (Naming ceremony), Cradle ceremonies (ತೊಟ್ಟಿಲು ಶಾಸ್ತ್ರ), and milestone portraits.
+            </p>
+          </div>
+          <div class="pt-1.5 text-[10.5px] text-color-accent-dark font-sub font-semibold">ಬೇಬಿ & ಬರ್ತ್‌ಡೇ ಫೋಟೋಗ್ರಫಿ</div>
+        </div>
+
+        <!-- Service 4: Maternity & Traditional Seemantha (Seemantha Bangle Ceremony Photo) -->
+        <div class="space-y-2.5 bg-white p-3.5 sm:p-4 rounded-lg border border-border-subtle shadow-sm flex flex-col justify-between">
+          <div>
+            <div class="editorial-img-container aspect-[16/10] w-full rounded-md mb-2.5">
+              <img src="images/seemantha_bangles.jpg" 
+                   alt="Traditional Indian Seemantha and Maternity Photography"
+                   loading="lazy" 
+                   decoding="async" />
+            </div>
+            <div class="text-[10px] font-sub uppercase tracking-widest text-color-accent font-semibold">04 / Maternity</div>
+            <h3 class="font-serif text-base font-bold text-text-main mt-0.5">Maternity & Seemantha (Baby Shower)</h3>
+            <p class="text-text-muted text-xs leading-relaxed font-light mt-0.5">
+              Graceful traditional Seemantha bangle ceremonies, family blessings, and intimate outdoor maternity portrait sessions.
+            </p>
+          </div>
+          <div class="pt-1.5 text-[10.5px] text-color-accent-dark font-sub font-semibold">ಸೀಮಂತ & ಮೆಟರ್ನಿಟಿ ಶೂಟ್ಸ್</div>
+        </div>
+
+        <!-- Service 5: Upanayana, Gruhapravesha & Family Pooja (Family Pooja Photo) -->
+        <div class="space-y-2.5 bg-white p-3.5 sm:p-4 rounded-lg border border-border-subtle shadow-sm flex flex-col justify-between">
+          <div>
+            <div class="editorial-img-container aspect-[16/10] w-full rounded-md mb-2.5">
+              <img src="images/family_pooja.jpg" 
+                   alt="Indian Traditional Upanayana, Gruhapravesha and Family Pooja"
+                   loading="lazy" 
+                   decoding="async" />
+            </div>
+            <div class="text-[10px] font-sub uppercase tracking-widest text-color-accent font-semibold">05 / Milestones</div>
+            <h3 class="font-serif text-base font-bold text-text-main mt-0.5">Upanayana, Gruhapravesha & Poojas</h3>
+            <p class="text-text-muted text-xs leading-relaxed font-light mt-0.5">
+              Dedicated ritual photography for Sacred Thread ceremonies (ಮುಂಜಿ / ಉಪನಯನ), Housewarming (ಗೃಹಪ್ರವೇಶ), and Satyanarayana Poojas.
+            </p>
+          </div>
+          <div class="pt-1.5 text-[10.5px] text-color-accent-dark font-sub font-semibold">ಉಪನಯನ & ಗೃಹಪ್ರವೇಶ</div>
+        </div>
+
+        <!-- Service 6: Indoor Studio Portraits & Matrimonial Biodata (Studio Bridal Portrait) -->
+        <div class="space-y-2.5 bg-white p-3.5 sm:p-4 rounded-lg border border-border-subtle shadow-sm flex flex-col justify-between">
+          <div>
+            <div class="editorial-img-container aspect-[16/10] w-full rounded-md mb-2.5">
+              <img src="images/bridal_studio.jpg" 
+                   alt="Indoor Studio Portraits and Matrimonial Biodata Sullia"
+                   loading="lazy" 
+                   decoding="async" />
+            </div>
+            <div class="text-[10px] font-sub uppercase tracking-widest text-color-accent font-semibold">06 / Studio</div>
+            <h3 class="font-serif text-base font-bold text-text-main mt-0.5">Indoor Studio, Biodata & Passports</h3>
+            <p class="text-text-muted text-xs leading-relaxed font-light mt-0.5">
+              Air-conditioned modern studio on Car Street in Jattipalla for matrimonial profile portraits, family group portraits, and instant passport prints.
+            </p>
+          </div>
+          <div class="pt-1.5 text-[10.5px] text-color-accent-dark font-sub font-semibold">ಇಂಡೋರ್ ಸ್ಟುಡಿಯೋ & ಪಾಸ್‌ಪೋರ್ಟ್</div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- 6. FEATURED STORY (Widescreen, Authentic Indian Wedding Spread) -->
+  <section id="story" class="scroll-mt-20 sm:scroll-mt-24 py-8 sm:py-14">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-10">
+      
+      <div class="text-center max-w-2xl mx-auto mb-5 sm:mb-7">
+        <div class="editorial-label mb-1">Featured Story</div>
+        <h2 class="editorial-heading text-2xl sm:text-3xl font-normal text-text-main">
+          A Coastal Wedding in <br />
+          <span class="italic-serif font-normal">Mangaluru & Sullia</span>
+        </h2>
+        <p class="text-text-dim text-xs uppercase tracking-widest font-sub mt-0.5">Prashanth + Divya</p>
+      </div>
+
+      <!-- Large High-Resolution Indian Wedding Couple Photo (Full Image Displayed) -->
+      <div class="editorial-img-container aspect-[4/3] sm:aspect-[16/10] md:aspect-[3/2] max-h-[580px] shadow-sm mb-5 lightbox-trigger cursor-pointer rounded-lg"
+           data-title="Prashanth + Divya Traditional Wedding Celebration"
+           data-category-label="Featured Story">
+        <img src="images/story_wedding.jpg" 
+             alt="Featured South Indian wedding story in Coastal Karnataka"
+             class="object-center"
+             loading="lazy" 
+             decoding="async" />
+      </div>
+
+      <!-- Editorial Narrative -->
+      <div class="grid grid-cols-1 md:grid-cols-12 gap-5 items-start bg-bg-sand/30 p-4 sm:p-7 rounded-lg border border-border-subtle">
+        <div class="md:col-span-4">
+          <div class="font-serif italic text-base sm:text-lg text-text-main leading-snug">
+            “They captured every sacred ritual with so much patience and cultural respect.”
+          </div>
+          <div class="text-xs font-sub text-color-accent-dark font-semibold mt-1.5">Prashanth & Divya • Sullia</div>
+        </div>
+        <div class="md:col-span-8 space-y-2 text-text-muted text-xs sm:text-sm leading-relaxed font-light">
+          <p>
+            Surrounded by arecanut palms and the blessings of elders, Prashanth and Divya’s celebration was filled with sacred reverence and spontaneous joy. From the early morning Ganapathi homa to the garland exchange and tearful vidaai, every frame was crafted to tell the authentic truth of their day.
+          </p>
+          <div class="pt-0.5">
+            <a href="https://wa.me/917899530503?text=Namaskara%20AVIN%20Studio!%20I%20would%20like%20to%20inquire%20about%20booking%20wedding%20photography%20for%20my%20event." 
+               target="_blank" rel="noopener noreferrer"
+               class="inline-flex items-center gap-1.5 text-xs font-sub font-semibold uppercase tracking-wider text-text-main hover:text-color-accent transition-colors">
+              <span>Inquire About Your Wedding Story →</span>
+            </a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- 7. WHY CHOOSE US -->
+  <section class="py-8 sm:py-14 bg-bg-sand/40 border-y border-border-subtle">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-10">
+      
+      <div class="max-w-2xl mb-6 sm:mb-8">
+        <div class="editorial-label mb-1">Our Standard</div>
+        <h2 class="editorial-heading text-2xl sm:text-3xl font-normal text-text-main">
+          Why Families <span class="italic-serif font-normal">Trust AVIN Studio</span>
+        </h2>
+      </div>
+
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5 sm:gap-6">
+        
+        <div class="space-y-1">
+          <div class="text-xs font-sub font-semibold text-color-accent uppercase tracking-wider">01 / Experience</div>
+          <h3 class="font-serif text-base font-bold text-text-main">12+ Years of Heritage</h3>
+          <p class="text-text-muted text-xs leading-relaxed font-light">
+            Over 500 weddings, baby ceremonies, and family milestones documented across Sullia, Puttur, and Mangaluru.
+          </p>
+        </div>
+
+        <div class="space-y-1">
+          <div class="text-xs font-sub font-semibold text-color-accent uppercase tracking-wider">02 / Unposed Authenticity</div>
+          <h3 class="font-serif text-base font-bold text-text-main">Natural, Honest Moments</h3>
+          <p class="text-text-muted text-xs leading-relaxed font-light">
+            We prioritize genuine family smiles, baby giggles, and spontaneous emotions rather than stiff artificial poses.
+          </p>
+        </div>
+
+        <div class="space-y-1">
+          <div class="text-xs font-sub font-semibold text-color-accent uppercase tracking-wider">03 / Color Science</div>
+          <h3 class="font-serif text-base font-bold text-text-main">Master Skin-Tone Retouching</h3>
+          <p class="text-text-muted text-xs leading-relaxed font-light">
+            Individual color grading calibrated for true Indian bridal skin tones, soft baby complexions, and rich silk shades.
+          </p>
+        </div>
+
+        <div class="space-y-1">
+          <div class="text-xs font-sub font-semibold text-color-accent uppercase tracking-wider">04 / Heirloom Albums</div>
+          <h3 class="font-serif text-base font-bold text-text-main">Luxury Flush-Mount Photobooks</h3>
+          <p class="text-text-muted text-xs leading-relaxed font-light">
+            Non-tearable, velvet and silk embossed albums crafted to last in pristine quality for generations.
+          </p>
+        </div>
+
+        <div class="space-y-1">
+          <div class="text-xs font-sub font-semibold text-color-accent uppercase tracking-wider">05 / Equipment Setup</div>
+          <h3 class="font-serif text-base font-bold text-text-main">Cinema 4K & Drone Aerovision</h3>
+          <p class="text-text-muted text-xs leading-relaxed font-light">
+            Full-frame Sony Alpha bodies, prime G-Master lenses, and licensed aerial drone cinematography.
+          </p>
+        </div>
+
+        <div class="space-y-1">
+          <div class="text-xs font-sub font-semibold text-color-accent uppercase tracking-wider">06 / Reliability</div>
+          <h3 class="font-serif text-base font-bold text-text-main">On-Time Delivery Guarantee</h3>
+          <p class="text-text-muted text-xs leading-relaxed font-light">
+            Fast teaser delivery for social media within days and full edited footage delivered on high-speed media.
+          </p>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- 8. ABOUT THE STUDIO -->
+  <section id="about" class="scroll-mt-20 sm:scroll-mt-24 py-8 sm:py-14">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-10">
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-6 lg:gap-10 items-center">
+        
+        <!-- Left: Image -->
+        <div class="lg:col-span-6">
+          <div class="editorial-img-container aspect-[4/3] sm:aspect-[16/10] shadow-sm rounded-lg">
+            <img src="images/about_studio.jpg" 
+                 alt="AVIN Studio Sullia wedding photography team"
+                 loading="lazy" 
+                 decoding="async" />
+          </div>
+        </div>
+
+        <!-- Right: Story -->
+        <div class="lg:col-span-6 space-y-3">
+          <div class="editorial-label">About AVIN Studio</div>
+          
+          <h2 class="editorial-heading text-2xl sm:text-3xl font-normal text-text-main">
+            More than photographs. <br />
+            <span class="italic-serif font-normal">We preserve the feeling.</span>
+          </h2>
+
+          <div class="w-10 h-0.5 bg-color-accent"></div>
+
+          <p class="text-text-muted text-xs sm:text-sm leading-relaxed font-light">
+            Located right on <strong>Car Street in Jattipalla, Sullia</strong>, AVIN Studio (ಅವಿನ್ ಸ್ಟುಡಿಯೋ) was built with a simple belief: photography is an act of preserving love and memory for families who will look at these frames decades from now.
+          </p>
+
+          <p class="text-text-muted text-xs sm:text-sm leading-relaxed font-light">
+            Whether it’s a grand multi-day wedding, a cozy baby’s first birthday in the family courtyard, or an intimate cradle ceremony, our team works with quiet respect and heartfelt dedication.
+          </p>
+
+          <!-- Studio Details -->
+          <div class="pt-1.5 space-y-1 border-t border-border-subtle text-xs text-text-main">
+            <div class="flex items-center gap-2">
+              <i data-lucide="map-pin" class="w-3.5 h-3.5 text-color-accent shrink-0"></i>
+              <span>Car Street, Jattipalla, Sullia, Karnataka 574239</span>
+            </div>
+            <div class="flex items-center gap-2">
+              <i data-lucide="clock" class="w-3.5 h-3.5 text-emerald-600 shrink-0"></i>
+              <span>Open Daily: 9:00 AM – 9:00 PM</span>
+            </div>
+          </div>
+
+          <div class="pt-1.5">
+            <a href="https://wa.me/917899530503?text=Namaskara%20AVIN%20Studio!%20I%20would%20like%20to%20discuss%20our%20family%20event." 
+               target="_blank" rel="noopener noreferrer"
+               class="btn-primary min-h-[40px] text-xs">
+              <i data-lucide="message-circle" class="w-3.5 h-3.5"></i>
+              <span>Chat with Us on WhatsApp</span>
+            </a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- 9. TESTIMONIALS -->
+  <section id="testimonials" class="scroll-mt-20 sm:scroll-mt-24 py-8 sm:py-14 bg-bg-sand/40 border-y border-border-subtle">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-10">
+      
+      <div class="text-center max-w-2xl mx-auto mb-6 sm:mb-8">
+        <div class="inline-flex items-center gap-1.5 text-amber-700 text-xs font-sub font-semibold mb-1">
+          <i data-lucide="star" class="w-3.5 h-3.5 fill-amber-700 text-amber-700"></i>
+          <span>4.2★ GOOGLE VERIFIED CLIENT REVIEWS</span>
+        </div>
+        <h2 class="editorial-heading text-2xl sm:text-3xl font-normal text-text-main">
+          Kind Words From <span class="italic-serif font-normal">Our Families</span>
+        </h2>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-5">
+        
+        <!-- Review 1: Wedding -->
+        <div class="bg-white p-4 sm:p-5 rounded-lg border border-border-subtle shadow-sm space-y-2.5 flex flex-col justify-between">
+          <div>
+            <div class="flex text-amber-600 mb-1.5">
+              <i data-lucide="star" class="w-3 h-3 fill-amber-600 text-amber-600"></i>
+              <i data-lucide="star" class="w-3 h-3 fill-amber-600 text-amber-600"></i>
+              <i data-lucide="star" class="w-3 h-3 fill-amber-600 text-amber-600"></i>
+              <i data-lucide="star" class="w-3 h-3 fill-amber-600 text-amber-600"></i>
+              <i data-lucide="star" class="w-3 h-3 fill-amber-600 text-amber-600"></i>
+            </div>
+            <p class="font-serif italic text-text-main text-xs sm:text-sm leading-relaxed">
+              “They captured every wedding ritual and family moment with patience. Looking through the wedding album felt like experiencing the day all over again.”
+            </p>
+          </div>
+          <div class="pt-2.5 border-t border-border-subtle">
+            <div class="font-sub font-bold text-xs text-text-main uppercase tracking-wider">Prashanth Rai</div>
+            <div class="text-[10px] text-text-dim">Wedding Ceremony • Sullia</div>
+          </div>
+        </div>
+
+        <!-- Review 2: Baby Birthday & Cradle -->
+        <div class="bg-white p-4 sm:p-5 rounded-lg border border-border-subtle shadow-sm space-y-2.5 flex flex-col justify-between">
+          <div>
+            <div class="flex text-amber-600 mb-1.5">
+              <i data-lucide="star" class="w-3 h-3 fill-amber-600 text-amber-600"></i>
+              <i data-lucide="star" class="w-3 h-3 fill-amber-600 text-amber-600"></i>
+              <i data-lucide="star" class="w-3 h-3 fill-amber-600 text-amber-600"></i>
+              <i data-lucide="star" class="w-3 h-3 fill-amber-600 text-amber-600"></i>
+              <i data-lucide="star" class="w-3 h-3 fill-amber-600 text-amber-600"></i>
+            </div>
+            <p class="font-serif italic text-text-main text-xs sm:text-sm leading-relaxed">
+              “We booked AVIN Studio for our son’s 1st Birthday and Cradle ceremony (ತೊಟ್ಟಿಲು ಶಾಸ್ತ್ರ). The candid baby smiles and family photos came out so beautiful!”
+            </p>
+          </div>
+          <div class="pt-2.5 border-t border-border-subtle">
+            <div class="font-sub font-bold text-xs text-text-main uppercase tracking-wider">Anusha & Vinay</div>
+            <div class="text-[10px] text-text-dim">Baby 1st Birthday & Cradle • Jattipalla, Sullia</div>
+          </div>
+        </div>
+
+        <!-- Review 3: Family Ritual & Studio -->
+        <div class="bg-white p-4 sm:p-5 rounded-lg border border-border-subtle shadow-sm space-y-2.5 flex flex-col justify-between">
+          <div>
+            <div class="flex text-amber-600 mb-1.5">
+              <i data-lucide="star" class="w-3 h-3 fill-amber-600 text-amber-600"></i>
+              <i data-lucide="star" class="w-3 h-3 fill-amber-600 text-amber-600"></i>
+              <i data-lucide="star" class="w-3 h-3 fill-amber-600 text-amber-600"></i>
+              <i data-lucide="star" class="w-3 h-3 fill-amber-600 text-amber-600"></i>
+              <i data-lucide="star" class="w-3 h-3 fill-amber-600 text-amber-600"></i>
+            </div>
+            <p class="font-serif italic text-text-main text-xs sm:text-sm leading-relaxed">
+              “Convenient location on Car Street and unmatched album print quality. They covered our housewarming (ಗೃಹಪ್ರವೇಶ) and studio biodata photos with great care.”
+            </p>
+          </div>
+          <div class="pt-2.5 border-t border-border-subtle">
+            <div class="font-sub font-bold text-xs text-text-main uppercase tracking-wider">Harish Bhat</div>
+            <div class="text-[10px] text-text-dim">Housewarming & Studio Portraits • Sullia</div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- 10. RECENT CAPTURES STRIP -->
+  <section class="py-8 sm:py-14">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-10">
+      
+      <div class="text-center max-w-xl mx-auto mb-5 sm:mb-7">
+        <div class="editorial-label mb-0.5">Recent Captures</div>
+        <h2 class="editorial-heading text-xl sm:text-2xl font-normal text-text-main">
+          Follow Our <span class="italic-serif font-normal">Journey</span>
+        </h2>
+      </div>
+
+      <!-- Curated 6-Photo Clean Grid -->
+      <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-2 sm:gap-3">
+        
+        <!-- Photo 1: Indian Groom Traditional Attire -->
+        <div class="editorial-img-container aspect-[3/4] lightbox-trigger cursor-pointer rounded-md"
+             data-title="Indian Groom Traditional Attire" data-category-label="Wedding Attire">
+          <img src="images/grid_groom.jpg" 
+               alt="Indian groom in traditional attire"
+               loading="lazy" 
+               decoding="async" />
+        </div>
+
+        <!-- Photo 2: Indian Bride in Traditional Attire -->
+        <div class="editorial-img-container aspect-[3/4] lightbox-trigger cursor-pointer rounded-md"
+             data-title="South Indian Bride Silk Saree" data-category-label="Bridal Elegance">
+          <img src="images/grid_bride.jpg" 
+               alt="Indian bridal portrait"
+               loading="lazy" 
+               decoding="async" />
+        </div>
+
+        <!-- Photo 3: Indian Haldi Celebration -->
+        <div class="editorial-img-container aspect-[3/4] lightbox-trigger cursor-pointer rounded-md"
+             data-title="Traditional Haldi Turmeric Ritual" data-category-label="Rituals">
+          <img src="images/grid_haldi.jpg" 
+               alt="Indian Haldi ceremony"
+               loading="lazy" 
+               decoding="async" />
+        </div>
+
+        <!-- Photo 4: Indian Bridal Mehndi Hands -->
+        <div class="editorial-img-container aspect-[3/4] lightbox-trigger cursor-pointer rounded-md"
+             data-title="Bridal Mehndi & Henna Art" data-category-label="Ritual Details">
+          <img src="images/grid_mehndi.jpg" 
+               alt="Indian bridal mehndi hands"
+               loading="lazy" 
+               decoding="async" />
+        </div>
+
+        <!-- Photo 5: Traditional Wedding Celebration -->
+        <div class="editorial-img-container aspect-[3/4] lightbox-trigger cursor-pointer rounded-md"
+             data-title="Traditional Wedding Celebration" data-category-label="Wedding Moments">
+          <img src="images/grid_celebration.jpg" 
+               alt="Indian wedding celebration"
+               loading="lazy" 
+               decoding="async" />
+        </div>
+
+        <!-- Photo 6: Sacred Marriage Rituals & Havan -->
+        <div class="editorial-img-container aspect-[3/4] lightbox-trigger cursor-pointer rounded-md"
+             data-title="Sacred Marriage Rituals & Fire" data-category-label="Sacred Rituals">
+          <img src="images/grid_rituals.jpg" 
+               alt="Sacred Indian wedding rituals"
+               loading="lazy" 
+               decoding="async" />
+        </div>
+
+      </div>
+
+      <div class="text-center mt-5">
+        <a href="https://wa.me/917899530503?text=Namaskara%20AVIN%20Studio!%20I%20would%20like%20to%20follow%20your%20latest%20work." 
+           target="_blank" rel="noopener noreferrer"
+           class="inline-flex items-center gap-1.5 text-xs font-sub font-semibold uppercase tracking-[0.14em] text-text-main hover:text-color-accent transition-colors pb-0.5 border-b border-text-main hover:border-color-accent">
+          <span>Follow our work on Instagram & WhatsApp →</span>
+        </a>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- 11. FINAL CTA -->
+  <section id="contact" class="scroll-mt-20 sm:scroll-mt-24 py-8 sm:py-14 bg-bg-sand/60 border-t border-border-subtle text-center">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-10">
+      
+      <div class="editorial-label mb-1.5">Get in Touch</div>
+      <h2 class="editorial-heading text-2xl sm:text-3xl lg:text-4xl font-normal text-text-main mb-2">
+        Planning something <br />
+        <span class="italic-serif font-normal">truly special?</span>
+      </h2>
+      <p class="text-text-muted text-xs sm:text-sm max-w-lg mx-auto mb-5 font-light leading-relaxed">
+        Let’s create photographs you and your family will cherish for generations. Available for weddings, baby birthdays, seemantha, and family celebrations across Karnataka.
+      </p>
+
+      <div class="flex flex-row items-center justify-center gap-2.5 max-w-md mx-auto">
+        <a href="https://wa.me/917899530503?text=Namaskara%20AVIN%20Studio!%20I%20am%20planning%20an%20event%20and%20would%20like%20to%20check%20your%20availability." 
+           target="_blank" rel="noopener noreferrer"
+           class="btn-whatsapp flex-1 text-center justify-center shadow-md min-h-[42px] text-xs">
+          <i data-lucide="message-circle" class="w-4 h-4"></i>
+          <span>WhatsApp Us</span>
+        </a>
+
+        <a href="tel:07899530503" 
+           class="btn-primary flex-1 text-center justify-center shadow-md min-h-[42px] text-xs">
+          <i data-lucide="phone" class="w-3.5 h-3.5"></i>
+          <span>Call</span>
+        </a>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- 12. FOOTER -->
+  <footer class="editorial-footer bg-[#141312] text-neutral-300 py-8 sm:py-12 text-xs border-t border-white/10">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-10">
+      
+      <div class="grid grid-cols-1 md:grid-cols-12 gap-6 pb-6 border-b border-white/15">
+        
+        <!-- Column 1: Studio Brand & Heritage -->
+        <div class="md:col-span-5 space-y-2">
+          <div class="font-serif text-white text-xl sm:text-2xl font-bold tracking-wide">AVIN STUDIO</div>
+          <div class="text-xs text-amber-400 font-kannada font-semibold">ಅವಿನ್ ಸ್ಟುಡಿಯೋ - ಕಾರ್ ಸ್ಟ್ರೀಟ್, ಜಟ್ಟಿಪಳ್ಳ, ಸುಳ್ಯ</div>
+          <p class="text-neutral-300 text-xs font-light max-w-sm leading-relaxed">
+            Fine-art wedding, baby first birthday, cradle ceremony, seemantha, and heirloom portrait photography across Sullia, Puttur, Mangaluru, and Coastal Karnataka.
+          </p>
+          <div class="inline-flex items-center gap-1.5 px-2.5 py-1 rounded bg-white/10 text-amber-300 text-[10.5px] font-sub font-semibold mt-1">
+            <i data-lucide="star" class="w-3 h-3 fill-amber-300 text-amber-300"></i>
+            <span>4.2 ★ Google Rating (43+ Reviews) • Open Daily till 9:00 PM</span>
+          </div>
+        </div>
+
+        <!-- Column 2: Quick Links -->
+        <div class="md:col-span-3 space-y-1.5 font-sub uppercase tracking-wider text-[10.5px]">
+          <div class="text-white font-bold mb-1.5 text-xs border-b border-white/10 pb-1">Quick Links</div>
+          <div><a href="#work" class="text-neutral-300 hover:text-amber-300 transition-colors py-0.5 block">Featured Work</a></div>
+          <div><a href="#services" class="text-neutral-300 hover:text-amber-300 transition-colors py-0.5 block">Services</a></div>
+          <div><a href="#story" class="text-neutral-300 hover:text-amber-300 transition-colors py-0.5 block">Stories</a></div>
+          <div><a href="#about" class="text-neutral-300 hover:text-amber-300 transition-colors py-0.5 block">About Us</a></div>
+          <div><a href="#testimonials" class="text-neutral-300 hover:text-amber-300 transition-colors py-0.5 block">Testimonials</a></div>
+        </div>
+
+        <!-- Column 3: Contact Details -->
+        <div class="md:col-span-4 space-y-1.5 text-xs text-neutral-200 font-light">
+          <div class="font-sub uppercase tracking-wider text-white text-xs font-bold mb-1.5 border-b border-white/10 pb-1">Studio Location</div>
+          <div class="flex items-start gap-2 text-neutral-200">
+            <i data-lucide="map-pin" class="w-3.5 h-3.5 text-amber-400 shrink-0 mt-0.5"></i>
+            <span class="leading-snug">Car Street, Jattipalla, Sullia, Karnataka 574239</span>
+          </div>
+          <div class="flex items-center gap-2 text-neutral-200">
+            <i data-lucide="phone" class="w-3.5 h-3.5 text-amber-400 shrink-0"></i>
+            <a href="tel:07899530503" class="hover:text-amber-300 font-semibold text-white">078995 30503 / +91 78995 30503</a>
+          </div>
+          <div class="flex items-center gap-2 text-neutral-200">
+            <i data-lucide="clock" class="w-3.5 h-3.5 text-emerald-400 shrink-0"></i>
+            <span class="text-emerald-300 font-medium">Monday – Sunday : 9:00 AM – 9:00 PM</span>
+          </div>
+          <div class="pt-1">
+            <a href="https://maps.google.com/?q=AVIN+Studio+Car+St+Jattipalla+Sullia+Karnataka+574239" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-1.5 text-amber-300 hover:text-amber-200 font-sub text-[10.5px] uppercase tracking-wider font-semibold underline underline-offset-4">
+              <span>Open in Google Maps →</span>
+            </a>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="flex flex-col sm:flex-row items-center justify-between gap-2 pt-4 text-[10px] text-neutral-400 font-sub">
+        <div>© 2026 AVIN Studio (ಅವಿನ್ ಸ್ಟುಡಿಯೋ). All Rights Reserved.</div>
+        <div>Car Street, Jattipalla, Sullia, Karnataka 574239</div>
+      </div>
+
+    </div>
+  </footer>
+
+  <!-- 13. MOBILE BOTTOM DOCK -->
+  <div class="mobile-bottom-dock md:hidden flex items-center justify-between gap-2 shadow-2xl">
+    <a href="tel:07899530503" class="flex-1 py-2.5 rounded bg-text-main text-white font-sub font-semibold text-xs uppercase tracking-wider flex items-center justify-center gap-1.5 shadow active:scale-95 transition-transform min-h-[44px]">
+      <i data-lucide="phone" class="w-3.5 h-3.5 text-amber-400"></i>
+      <span>Call</span>
+    </a>
+    <a href="https://wa.me/917899530503?text=Namaskara%20AVIN%20Studio!%20I%20want%20to%20inquire%20about%20photography%20booking." target="_blank" rel="noopener noreferrer" class="flex-1 py-2.5 rounded bg-emerald-700 text-white font-sub font-semibold text-xs uppercase tracking-wider flex items-center justify-center gap-1.5 shadow active:scale-95 transition-transform min-h-[44px]">
+      <i data-lucide="message-circle" class="w-3.5 h-3.5"></i>
+      <span>WhatsApp</span>
+    </a>
+  </div>
+
+  <!-- FULLSCREEN EDITORIAL LIGHTBOX -->
+  <div id="lightbox-modal" class="lightbox-modal">
+    <button id="lightbox-close" class="absolute top-4 right-4 p-2.5 rounded-full bg-white/15 hover:bg-white/25 text-white border border-white/20 z-50 transition-colors touch-manipulation" aria-label="Close Lightbox">
+      <i data-lucide="x" class="w-5 h-5"></i>
+    </button>
+    <button id="lightbox-prev" class="absolute left-3 top-1/2 -translate-y-1/2 p-2.5 rounded-full bg-white/15 hover:bg-white/25 text-white border border-white/20 z-50 transition-colors touch-manipulation" aria-label="Previous Photo">
+      <i data-lucide="chevron-left" class="w-5 h-5"></i>
+    </button>
+    <button id="lightbox-next" class="absolute right-3 top-1/2 -translate-y-1/2 p-2.5 rounded-full bg-white/15 hover:bg-white/25 text-white border border-white/20 z-50 transition-colors touch-manipulation" aria-label="Next Photo">
+      <i data-lucide="chevron-right" class="w-5 h-5"></i>
+    </button>
+
+    <div class="relative max-w-4xl max-h-[85vh] flex flex-col items-center">
+      <img id="lightbox-img" src="" alt="AVIN Studio Showcase" class="max-h-[75vh] w-auto max-w-full object-contain rounded-lg shadow-2xl" />
+      <div class="mt-3 text-center">
+        <div id="lightbox-category" class="text-[11px] font-sub font-bold text-amber-400 uppercase tracking-widest"></div>
+        <div id="lightbox-title" class="text-sm sm:text-base font-serif font-bold text-white mt-0.5"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Application Scripts -->
+  <script src="js/app.js"></script>
+</body>
+</html>
