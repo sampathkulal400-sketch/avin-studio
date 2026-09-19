@@ -1,6 +1,6 @@
 # AVIN Studio (ಅವಿನ್ ಸ್ಟುಡಿಯೋ) — Photography Website
 
-An editorial photography studio website for **AVIN Studio**, located on Car Street, Jattipalla, Sullia, Karnataka (Phone: `078995 30503`).
+An editorial photography studio website for **AVIN Studio**, located on Car Street, Jattipalla, Sullia, Karnataka (Phone: `+91 78995 30503`).
 
 Designed with a warm organic linen palette, editorial serif typography, clean spacing, and mobile-first responsive interactions.
 
@@ -51,7 +51,7 @@ Visit `http://localhost:3000` in your browser.
 
 - **Studio Name**: AVIN Studio (ಅವಿನ್ ಸ್ಟುಡಿಯೋ)
 - **Location**: Car Street, Jattipalla, Sullia, Karnataka 574239
-- **Phone**: `078995 30503` / `+91 78995 30503`
+- **Phone**: `+91 78995 30503`
 - **Hours**: Open Daily (Monday – Sunday) : 9:00 AM – 9:00 PM
 - **Rating**: 4.2 ★ Google Rating (43+ Reviews)
 
