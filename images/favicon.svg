@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <!-- Deep Charcoal Background Circle -->
+  <circle cx="32" cy="32" r="30" fill="#141312" stroke="#c59b48" stroke-width="2.5" />
+  
+  <!-- Subtle Inner Gold Accent Ring -->
+  <circle cx="32" cy="32" r="26" fill="none" stroke="#b38b43" stroke-width="0.75" stroke-dasharray="2 1.5" opacity="0.6" />
+
+  <!-- Camera Aperture / Shutter Blades in Gold -->
+  <g stroke="#c59b48" stroke-width="1.2" fill="none" opacity="0.4">
+    <line x1="32" y1="8" x2="48" y2="24" />
+    <line x1="56" y1="32" x2="40" y2="48" />
+    <line x1="32" y1="56" x2="16" y2="40" />
+    <line x1="8" y1="32" x2="24" y2="16" />
+  </g>
+
+  <!-- Luxury Monogram "A" with Camera Flash Diamond -->
+  <text x="32" y="39" 
+        font-family="'Playfair Display', Georgia, serif" 
+        font-size="24" 
+        font-weight="700" 
+        fill="#f3eee6" 
+        text-anchor="middle">A</text>
+
+  <!-- Gold Star / Flash Accent at top right of A -->
+  <path d="M41 19 L42.5 22.5 L46 24 L42.5 25.5 L41 29 L39.5 25.5 L36 24 L39.5 22.5 Z" fill="#c59b48" />
+</svg>
