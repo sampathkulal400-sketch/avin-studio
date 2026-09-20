@@ -57,5 +57,11 @@ Visit `http://localhost:3000` in your browser.
 
 ---
 
+---
+
 ## 📄 License
 MIT License
+
+---
+
+*Last updated: 2026-09-20 • Maintained by [sampathkulal400-sketch](https://github.com/sampathkulal400-sketch)*
